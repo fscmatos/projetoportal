@@ -1,0 +1,157 @@
+<!DOCTYPE.html>
+<html>
+<head>
+	<title>Moodle</title>
+	<link rel="icon" href="https://img.icons8.com/color/100/000000/book.png" type="image/x-icon">
+	<meta name="viewport" content="width=device-width, initial-scale=1" /> 
+</head>
+<style>
+nav{
+	top: 350px;
+	font-family: unset;
+	background-color: white;
+	text-align: center;
+	padding-bottom: 15px;
+	padding-top: 8px;
+}
+nav li {
+	list-style: none;
+	display: inline;
+	margin-right: 5px;
+	margin-left: 5px;
+	font-size: 20px;
+	font-family: Cambria Math;
+}
+nav ol {
+	display: inline;
+	position: relative;
+}
+.navegacao {
+	text-decoration: none;
+	color: #474747;
+	background-color: white;
+  	padding: 10px;
+  	font-size: 16px;
+  	border: none;
+  	border-style: solid;
+  	border-color: black;
+  	text-align: center;
+}
+.navegacao:hover{
+	color: black;
+	text-decoration: none;
+	background-color: #56e4d5;
+	font-size: 19px;
+	border-color: #56e4d5;
+}
+::selection {
+	background-color: pink;
+	color: purple;
+}
+.icons {
+		height: 20px;
+		width: 20px;
+		margin-left: 10px;
+		margin-bottom: -5px;
+		margin-top: 2px;
+		margin-right: 5px;
+
+	}
+.icons:hover {
+	width: 23px;
+	height: 23px;
+}
+.headerphoto {
+	margin-top: 0px;
+	width: 100%;
+	max-height: 250px;
+}
+.caixa {
+	background-color: lightgray;
+	color: black;
+	padding: 50px 2px 55px 2px;
+	text-align: center;
+	margin-top: 80px;
+	margin-bottom: 0px;
+	height: 50px;
+	width: 24%;
+	border-radius: 5%;
+	font-size: 120%;
+	float: left;
+	border-right: 20px;
+	border-color: white;
+	border-style: solid;
+
+}
+.caixa:hover {
+	background-color: #56e4d5;
+}
+.linkdascaixas {
+	text-decoration: none;
+	color: black;
+	font-family: Cambria;
+}
+
+.linkdascaixas:hover {
+	text-decoration: underline wavy black;
+}
+.sidenav {
+  height: 48%;
+  width: 22%;
+  position: fixed;
+  right: 0;
+  background-color: white; 
+  overflow-x: hidden;
+  padding-top: 10px;
+  padding-left: 3px;
+  border-top: solid black;
+  border-bottom: solid black;
+}
+.sidenav ul {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  text-align: justify;
+}
+.sidenav li {
+	list-style: disc;
+}
+.sidenav li:hover {
+  color: black;
+}
+.sidenav h3 {
+	text-align: center;
+	font-family: Cambria;
+	font-weight: 600;
+}
+
+</style>
+<header>
+	<img class="headerphoto" src="C:\Users\adrin\Documents\html\assets\cortada.jpg">
+	<nav>
+		<ol>
+		<li><a class = "navegacao" href="#"><img class="icons" src="https://img.icons8.com/fluency-systems-regular/48/000000/home.png"/>Início</a></li>
+		<li><a class = "navegacao" href="#"><img class="icons" src="https://img.icons8.com/material-outlined/24/000000/report-card.png"/>Minhas notas</a></li>
+		<li><a class = "navegacao" href="#"><img class="icons" src="https://img.icons8.com/ios/50/000000/homework.png"/>Agenda</a></li>
+		<li><a class = "navegacao" href="#"><img class = "icons" src="https://img.icons8.com/ios/50/000000/important-event.png"/>Avisos</a></li>
+		<li><a class = "navegacao" href="#"><img class = "icons" src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/64/000000/external-options-design-development-flatart-icons-outline-flatarticons.png"/>Opções</a></li>
+</ol>
+</nav>
+</header>
+<body>
+	<div class="sidenav">
+		<h3>Quadro de avisos</h3>
+		<ul>
+		<li>A avaliação de biologia foi <strong>adiada</strong> para o dia 20/07!</li>
+		<li>Alunos que desejam fazer a segunda chamada da prova de matemática devem entrar em contato com o colégio até o dia 18/07</li>
+		<li>O módulo 3 já está disponível para retirada no colégio.</li>
+		<li>isso é um teste</li>
+	</ul>
+	</div>
+	<div>
+		<p class="caixa"><a class="linkdascaixas" href="#">Sala de aula de português<br><img src="https://img.icons8.com/wired/64/000000/class.png"/></a></p>		<p class="caixa"><a class="linkdascaixas" href="#">Sala de aula de matemática<br><img src="https://img.icons8.com/wired/64/000000/math.png"/></a></p>		<p class="caixa"><a class="linkdascaixas" href="#">Sala de aula de ciências<br><img src="https://img.icons8.com/wired/64/000000/thin-test-tube.png"/></a></p>		<p class="caixa"><a class="linkdascaixas" href="#">Sala de aula de história<br><img src="https://img.icons8.com/wired/64/000000/order-history.png"/></a></p>		<p class="caixa"><a class="linkdascaixas" href="#">Sala de aula de geografia<br><img src="https://img.icons8.com/wired/64/000000/geography.png"/></a></p>		<p class="caixa"><a class="linkdascaixas" href="#">Sala de aula de inglês<br><img src="https://img.icons8.com/wired/64/000000/great-britain.png"/></a></p>		<p class="caixa"><a class="linkdascaixas" href="#">Sala de aula de física<br><img src="https://img.icons8.com/wired/64/000000/bouncing-ball.png"/></a></p><p class="caixa"><a class="linkdascaixas" href="#">Sala de aula de química<br><img src="https://img.icons8.com/wired/64/000000/benzene-ring.png"/></a></p>
+	</div>
+
+</body>
